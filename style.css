@@ -1,0 +1,52 @@
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color:pink;
+    overflow: hidden;
+    padding: 2rem,
+}
+
+span {
+    background: url("https://cdn3.iconfinder.com/data/icons/free-icons-3/512/cat_3.png");
+    width: 100px;
+    height:100px;
+    position:absolute;
+    pointer-events: click;
+    background-size: cover;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    animation: animate 25s linear;
+}
+@keyframes animate {
+    0%{
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    filter: hue-rotate(0);
+}
+    100%{
+    transform: translate(-50%,-5000%);
+    opacity: 0;
+    filter: hue-rotate(720deg);
+}
+
+container1 {
+    display: flex;
+    justify-content: center; /* Items centered */
+   
+}
+
+Items {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightblue;
+
+
+}
+nav {
+    background-color: blueviolet;
+}
+};
