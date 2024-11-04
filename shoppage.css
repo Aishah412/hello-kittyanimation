@@ -59,6 +59,13 @@ footer {
     bottom: 100px;
     width: 100%;
 }
+card-text {
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: solid;
+text-decoration-color: black;
+text-align: center;
 
+}
   
   
